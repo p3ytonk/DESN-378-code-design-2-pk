@@ -9,10 +9,10 @@ Update it once, keep it consistent everywhere.
 
 | Field | Value |
 |-------|-------|
-| **Name** | <!-- First Last --> |
-| **Preferred Name** | <!-- What should I call you? --> |
-| **Pronouns** | <!-- Optional --> |
-| **EWU Email** | <!-- @ewu.edu --> |
+| **Name** | <!-- Peyton Knox --> |
+| **Preferred Name** | <!-- Peyton --> |
+| **Pronouns** | <!-- She/Her --> |
+| **EWU Email** | <!-- pknox@ewu.edu --> |
 
 ---
 
@@ -22,18 +22,18 @@ Update it once, keep it consistent everywhere.
 
 | Platform | Profile URL | Status |
 |----------|-------------|--------|
-| **GitHub** | `https://github.com/________` | ⏳ |
-| **Figma** | `@________` | ⏳ |
-| **CodePen** | `https://codepen.io/________` | ⏳ |
+| **GitHub** | `https://github.com/p3ytonk/DESN-378-code-design-2-pk` | ✅ |
+| **Figma** | `https://www.figma.com/@peytonknox` | ✅ |
+| **CodePen** | `https://codepen.io/your-work` | ✅ |
 | **Portfolio** | *Coming Week 10* | 🔲 |
 
 ---
 
 ## Profile Photo
 
-- [ ] Same photo uploaded to GitHub, Figma, and CodePen
-- [ ] Professional or at least *intentional*
-- [ ] Face visible (helps me learn names!)
+- [x] Same photo uploaded to GitHub, Figma, and CodePen
+- [x] Professional or at least *intentional*
+- [x] Face visible (helps me learn names!)
 
 ---
 
@@ -41,9 +41,9 @@ Update it once, keep it consistent everywhere.
 
 | Item | Status |
 |------|--------|
-| Applied/Renewed | ⏳ |
-| Copilot Access | ⏳ |
-| Expires | <!-- Date --> |
+| Applied/Renewed | ✅ |
+| Copilot Access | ✅ |
+| Expires | <!-- 6.14.2026 --> |
 
 👉 [Check status or renew](https://education.github.com/pack)
 
@@ -53,9 +53,9 @@ Update it once, keep it consistent everywhere.
 
 | Item | Status |
 |------|--------|
-| Education Plan Active | ⏳ |
-| Joined Course Team | ⏳ |
-| Expires | <!-- Date --> |
+| Education Plan Active | ✅ |
+| Joined Course Team | ✅ |
+| Expires | <!-- 6.14.2026 --> |
 
 👉 [Check status](https://www.figma.com/settings) → Plan
 
@@ -66,8 +66,7 @@ Update it once, keep it consistent everywhere.
 *Optional: A sentence or two about your design interests. This could seed your eventual portfolio bio.*
 
 <!-- 
-Example: "I'm drawn to motion design and systems thinking. 
-Currently exploring how interaction design can feel more human."
+Example: "I am really interested in typography and logo creation. One of my favorite things to do is play around with color palettes to shift the mood or tone of a design."
 -->
 
 ---
