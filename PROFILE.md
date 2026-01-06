@@ -9,10 +9,10 @@ Update it once, keep it consistent everywhere.
 
 | Field | Value |
 |-------|-------|
-| **Name** | <!-- Peyton Knox --> |
-| **Preferred Name** | <!-- Peyton --> |
-| **Pronouns** | <!-- She/Her --> |
-| **EWU Email** | <!-- pknox@ewu.edu --> |
+| **Name** | Peyton Knox |
+| **Preferred Name** | Peyton |
+| **Pronouns** | She/Her |
+| **EWU Email** | pknox@ewu.edu |
 
 ---
 
