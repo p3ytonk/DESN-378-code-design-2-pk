@@ -43,7 +43,7 @@ Update it once, keep it consistent everywhere.
 |------|--------|
 | Applied/Renewed | ✅ |
 | Copilot Access | ✅ |
-| Expires | <!-- 6.14.2026 --> |
+| Expires | 6.14.2026 |
 
 👉 [Check status or renew](https://education.github.com/pack)
 
@@ -55,7 +55,7 @@ Update it once, keep it consistent everywhere.
 |------|--------|
 | Education Plan Active | ✅ |
 | Joined Course Team | ✅ |
-| Expires | <!-- 6.14.2026 --> |
+| Expires | 6.14.2026 |
 
 👉 [Check status](https://www.figma.com/settings) → Plan
 
@@ -63,7 +63,7 @@ Update it once, keep it consistent everywhere.
 
 ## About Me
 
-*Optional: A sentence or two about your design interests. This could seed your eventual portfolio bio.*
+*I am really interested in typography and logo creation. One of my favorite things to do is play around with color palettes to shift the mood or tone of a design.*
 
 <!-- 
 Example: "I am really interested in typography and logo creation. One of my favorite things to do is play around with color palettes to shift the mood or tone of a design."
