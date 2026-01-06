@@ -78,7 +78,7 @@ Before class Wednesday Jan 7th, confirm everything is set up:
 - [x] Repository is public
 - [x] `PROFILE.md` filled out
 - [x] All profiles match (GitHub, Figma, CodePen)
-- [ ] GitHub Pages enabled and working
+- [x] GitHub Pages enabled and working
 - [x] Portfolio link at top of README
 - [x] GitHub Student Pack active (for Copilot)
 - [x] Figma Education active
