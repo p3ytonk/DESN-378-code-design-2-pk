@@ -24,7 +24,7 @@ Update it once, keep it consistent everywhere.
 |----------|-------------|--------|
 | **GitHub** | `https://github.com/p3ytonk/DESN-378-code-design-2-pk` | ✅ |
 | **Figma** | `https://www.figma.com/@peytonknox` | ✅ |
-| **CodePen** | `https://codepen.io/your-work` | ✅ |
+| **CodePen** | `https://codepen.io/pknox` | ✅ |
 | **Portfolio** | *Coming Week 10* | 🔲 |
 
 ---
