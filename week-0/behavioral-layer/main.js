@@ -25,14 +25,13 @@ myImage.addEventListener("click", () => {
   const mySrc = myImage.getAttribute("src");
 
   // Update these file names to YOUR two custom images (same dimensions).
-  if (mySrc === "images/firefox-icon.png") {
-    myImage.setAttribute("src", "images/foxy2.png");
-    myImage.setAttribute("alt", "A second fox image you chose.");
-  } else {
-    myImage.setAttribute("src", "images/firefox-icon.png");
-    myImage.setAttribute("alt", "The Firefox logo: a flaming fox surrounding the Earth.");
-  }
-});
+if (mySrc === "images/fox1.png") {
+  myImage.setAttribute("src", "images/foxy2.jpg");
+  myImage.setAttribute("alt", "A second fox image you chose.");
+} else {
+  myImage.setAttribute("src", "images/foxy1.jpg");
+  myImage.setAttribute("alt", "A fox image you can click to change.");
+}
 
 /*
   EXPLAIN LIKE I'M 5:
