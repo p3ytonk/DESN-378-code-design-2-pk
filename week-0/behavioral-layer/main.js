@@ -17,21 +17,14 @@ const myButton = document.querySelector("button");
   "When someone clicks you, do the swap trick!"
 */
 myImage.addEventListener("click", () => {
-  /*
-    EXPLAIN LIKE I'M 5:
-    We read the image’s current "src" (its filename/path).
-    If it's one picture, we switch to the other.
-  */
   const mySrc = myImage.getAttribute("src");
 
-  // Update these file names to YOUR two custom images (same dimensions).
-if (mySrc === "images/fox1.png") {
-  myImage.setAttribute("src", "images/foxy2.jpg");
-  myImage.setAttribute("alt", "A second fox image you chose.");
-} else {
-  myImage.setAttribute("src", "images/foxy1.jpg");
-  myImage.setAttribute("alt", "Up close fox eye");
-}
+  if (mySrc === "images/foxy1.jpg") {
+    myImage.setAttribute("src", "images/foxy2.jpg");
+  } else {
+    myImage.setAttribute("src", "images/foxy1.jpg");
+  }
+});
 
 /*
   EXPLAIN LIKE I'M 5:
