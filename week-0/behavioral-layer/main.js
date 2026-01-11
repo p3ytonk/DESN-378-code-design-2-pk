@@ -30,7 +30,7 @@ if (mySrc === "images/fox1.png") {
   myImage.setAttribute("alt", "A second fox image you chose.");
 } else {
   myImage.setAttribute("src", "images/foxy1.jpg");
-  myImage.setAttribute("alt", "A fox image you can click to change.");
+  myImage.setAttribute("alt", "Up close fox eye");
 }
 
 /*
