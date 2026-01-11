@@ -26,7 +26,7 @@ myImage.addEventListener("click", () => {
 
   // Update these file names to YOUR two custom images (same dimensions).
   if (mySrc === "images/firefox-icon.png") {
-    myImage.setAttribute("src", "images/fox2.png");
+    myImage.setAttribute("src", "images/foxy2.png");
     myImage.setAttribute("alt", "A second fox image you chose.");
   } else {
     myImage.setAttribute("src", "images/firefox-icon.png");
