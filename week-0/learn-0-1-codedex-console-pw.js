@@ -3,32 +3,30 @@
 // Student: [Your Name]
 // Date: [Date]
 // ============================================
-​
+
 // --------------------------------------------
 // EXERCISE 1: SETTING UP
 // --------------------------------------------
 console.log("Hello internet!");
 // Add your custom greeting below:
-​
-​
+console.log("Hey! I'm learning JavaScript 😄");
+
 // --------------------------------------------
 // EXERCISE 2: THE CONSOLE
 // Your favorite food
 // --------------------------------------------
 console.log("My favorite food is any kind of Sushi!");
-​
-​
+
 // --------------------------------------------
 // EXERCISE 3: LETTER TREE
 // The pattern: a, b c, d e f, g h i j, k
 // --------------------------------------------
 console.log("   a   ");
-console.log("  b c   ");
-console.log(" d e f  ");
+console.log("  b c  ");
+console.log(" d e f ");
 console.log("g h i j");
 console.log("   k   ");
-​
-​
+
 // --------------------------------------------
 // EXERCISE 4: SECRET RECIPE
 // Use comments to document your recipe
@@ -61,16 +59,16 @@ console.log("6. Simmer 10–12 minutes, stirring occasionally, until noodles are
 console.log("7. Taste and season with salt + pepper. Keep the soup on low heat.");
 console.log("8. Serve in bowls and top with a dollop of ricotta, then mozzarella + Parmesan. Add basil/parsley if you want.");
 
-/* 
-Secret Ingredient :
+/*
+Secret Ingredient:
 ...Love haha.
-*/ 
-​
-​
+*/
+
 // --------------------------------------------
 // EXERCISE 5: RECEIPT
 // Format a receipt from a recent purchase
 // --------------------------------------------
+console.log(`
 ==================================
           APPLE RECEIPT
 ----------------------------------
@@ -83,4 +81,4 @@ Item                Quantity  Price
 ----------------------------------
 Total                         2198.00
 ==================================
-​
+`);
