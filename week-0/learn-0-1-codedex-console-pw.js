@@ -1,7 +1,7 @@
 // ============================================
 // TUTORIAL 0-1: CODEDEX CONSOLE FUNDAMENTALS
-// Student: [Your Name]
-// Date: [Date]
+// Student: [Peyton Whiteley]
+// Date: [January 10, 2026]
 // ============================================
 
 // --------------------------------------------
