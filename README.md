@@ -62,7 +62,15 @@ I really still need to practice using the console in dev tools. Even though it i
 
 
 ### Week 1: Systems That Respond
-*Coming soon...*
+# Portfolio — Week 1
+​
+## Project Structure
+- `css/` — Stylesheets
+- `scripts/` — JavaScript
+- `assets/` — Images, fonts, icons, etc.
+​
+## Changes This Week
+- Migrated to standardized structure
 
 ### Week 2: Remembering Choices
 *Coming soon...*
