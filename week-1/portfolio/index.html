@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peyton Knox | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Dawning+of+a+New+Day&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+   <link rel="icon" type="image/png" href="my-favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="my-favicon/favicon.svg" />
+<link rel="shortcut icon" href="my-favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="my-favicon/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="MyWebSite" />
+<link rel="manifest" href="my-favicon/site.webmanifest" />
+
+
+
+  <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="top-nav">
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><span class="nav-label">TABLE OF CONTENTS:</span></li>
+          <li><a href="#about" class="nav-link">About Me</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Hero -->
+    <div class="hero">
+      <figure class="hero-figure">
+        <!-- Self portrait -->
+        <img src="images/self-portrait.png" alt="Pen and ink self-portrait of Peyton Knox.">
+      </figure>
+      <div class="hero-text">
+        <h1 class="hero-name">Peyton<br>Knox</h1>
+      </div>
+    </div>
+  </header>
+
+  
+  <main>
+  
+    <section id="about" class="about-section">
+      <p>
+        I'm a graphic design student who enjoys exploring the spaces between old and new like mixing
+        vintage charm with modern colors, layouts, and ideas. I'm drawn to projects that involve
+        building a website, crafting a brand identity, or designing something for print. Typography is
+        one of my favorite parts of the process. I love how letters alone can set a mood, tell a story,
+        or shift the entire feel of a design. I'm always chasing that balance between structure and
+        personality. Design matters to me because it's a world where diversity is not just accepted,
+        but celebrated. Every mind works differently, and I love how no two outcomes are ever the same,
+        even with the same tools or prompt. It's a reminder that creativity is alive, constantly
+        changing, and will always be uniquely ours. I'm still figuring out exactly where I want to land
+        in the design world, but I'm leaning toward work that feels meaningful and creatively fulfilling.
+      </p>
+
+      <!-- Dragonfly behind the paragraph -->
+      <img
+        class="dragonfly"
+        src="images/dragon-fly.png"
+        alt="Illustration of a dragonfly behind the paragraph."
+      >
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects-section">
+      <div class="section-heading">
+        <h2>Projects</h2>
+        <div class="dotted-line" aria-hidden="true"></div>
+      </div>
+
+      <div class="projects-wrapper">
+        <article class="projects-card" aria-label="Selected projects">
+          <ul class="projects-list">
+            <li>
+              <a
+                href="week-2/recipe-site/recipe.html"
+                class="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Vol. 1 Recipe Site
+              </a>
+            </li>
+            <li>
+              <a
+                href="week-4/tribute-site/tribute.html"
+                class="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Vol. 2 Tribute Page
+              </a>
+            </li>
+            <li>
+              <a
+                href="week-6/field-guide.html"
+                class="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Vol. 3 Field Guide
+              </a>
+            </li>
+            <li>
+              <a
+                href="week-10/product-landing-page.html"
+                class="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Vol. 4 Product Landing Page
+              </a>
+            </li>
+          </ul>
+        </article>
+
+      
+        <img class="butterfly" src="images/butterfly.png" alt="Illustration of a pale butterfly overlapping the project card.">
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact-section">
+      <div class="section-heading section-heading--dots-before">
+        <div class="dotted-line" aria-hidden="true"></div>
+        <h2>Contact Me</h2>
+      </div>
+
+      <section class="contact-card" aria-label="Contact form">
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+          </div>
+
+          <button type="submit" class="btn-submit">
+            Submit
+          </button>
+        </form>
+
+        
+        <img class="beetle" src="images/beetle.png" alt="Illustration of a colorful beetle resting on the corner of the contact card.">
+      </section>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+  
+      <div class="footer-text">
+        <p class="footer-copy">© 2025 Peyton Knox | Portfolio</p>
+        <p class="integrity-note">Co-created with ChatGPT.</p>
+      </div>
+
+     
+      <div class="footer-actions">
+        <a href="reflection/reflection.html" class="footer-reflection-link">Reflection</a>
+      </div>
+
+  
+      <div class="footer-icons">
+        <a
+          href="https://github.com/p3ytonk"
+          class="icon-button github"
+          aria-label="GitHub profile for Peyton Knox"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="images/Github.png" alt="" aria-hidden="true">
+        </a>
+        <a
+          href="https://www.linkedin.com/in/peyton-knox-49a67729a/"
+          class="icon-button linkedin"
+          aria-label="LinkedIn profile for Peyton Knox"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="images/Linkedin.png" alt="" aria-hidden="true">
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
