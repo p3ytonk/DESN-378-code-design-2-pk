@@ -24,6 +24,43 @@ This is my workspace for **DESN 378 Code + Design 2** also known as **Web Design
 
 Update this section each week with observations, breakthroughs, and questions.
 
+## Week 0: The Setup
+​
+### What I Learned
+Something I learned this week was how JavaScript really does change the behavior of a website. Travis has mentioned this many times, but actually working with it and seeing what changes it makes showed me how it can make a webpage come to life. I also learned how to format my github pages now having to add in JavaScript and sort of what that looks like. This doesn't really have anything to do with JavaScript, but another simple thing I learned this week was that the format of an image like (.png or .jpg) does matter when linking images to a website. I had never run into that issue before but now I know. I also learned in dev tools, you can click a button that has a mobile device icon and it changes the screen size to mobile view. Absolutely magnificent discovery. 
+​
+​
+### What Was Hard
+One thing that really made this weeks homework difficult for me was trying to rewire the way I set up my HTML files now that I am starting to use JavaScript. A lot of my previous knowledge became sort of muscle memory and now having to reconsider where things go is sort of frustrating, but also exciting too. I don't really like that JavaScript can be inserted basically anwhere inside the HTML page because I just like to be told where to put things. 
+​
+​
+### How I Used AI
+I used ChatGPT to help further explain what certain bits of JavaScript do or how they function. I was inspired by some of the assignments instructions to have AI explain it to you like you are a five year old. Although I believe I have more intelligence than a kindergartener, it was helpful to have it explained to me in the simplest of terms. I also would plug in some pieces of code and ask things like "How come my images aren't showing up on my live page?" and it would point out the errors and what needed to be fixed to solve the problem. 
+​
+​
+### What's Still Unclear
+I really still need to practice using the console in dev tools. Even though it is fairly simple, I still open it and feel overwhelmed and not sure where to start. I also don't really understand what the 2+2 or 50 /8 or whatever that was we were doing on the first day in dev tools... I may have just immediately disacciated when I caught glimpse of a math equation... Im kind of joking, but seriously what was the reason for that? What did it do? 
+​
+​
+### Work Completed (Week 0)
+​
+**Engage**
+- [x] Portfolio Audit
+​
+**Learn**
+- [x] Console Explorer
+- [x] Codedex Console Fundamentals
+​
+**Reflect**
+- [x] Visual Notes: Variables and Strings
+​
+**Build**
+- [x] The Setup
+- [x] The Behavioral Layer
+​
+---
+
+
 ### Week 1: Systems That Respond
 *Coming soon...*
 
