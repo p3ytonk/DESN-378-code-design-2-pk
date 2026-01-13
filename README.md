@@ -39,7 +39,7 @@ I used ChatGPT to help further explain what certain bits of JavaScript do or how
 ​
 ​
 ### What's Still Unclear
-I really still need to practice using the console in dev tools. Even though it is fairly simple, I still open it and feel overwhelmed and not sure where to start. I also don't really understand what the 2+2 or 50 /8 or whatever that was we were doing on the first day in dev tools... I may have just immediately disacciated when I caught glimpse of a math equation... Im kind of joking, but seriously what was the reason for that? What did it do? 
+I really still need to practice using the console in dev tools. Even though it is fairly simple, I still open it and feel overwhelmed and not sure where to start. I also don't really understand what the 2+2 or 50 /8 or whatever that was we were doing on the first day in dev tools... I may have just immediately disacciated when I caught glimpse of a math equation... Im kind of joking, but seriously what was the reason for that? What did it do? I also don't undertand how JavaScript could change what the page says like when the pop up would ask for a users name and then it would say "Modzilla is cool, Peyton". How?
 ​
 ​
 ### Work Completed (Week 0)
