@@ -70,7 +70,7 @@ function render(stepIndex) {
   captionEl.textContent = personalize(steps[stepIndex].caption);
   creditEl.textContent = steps[stepIndex].credit;
 
-  img.src = `assets/images/image-${stepIndex + 1}.png`;
+  img.src = `images/image-${stepIndex + 1}.png`;
   img.alt = steps[stepIndex].alt;
 
   updateProgress(stepIndex);
