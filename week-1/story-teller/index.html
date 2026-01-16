@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MLK Day Story Teller</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <main class="story-container">
+    <header class="story-header">
+      <h1>MLK Day: A Continuing Legacy</h1>
+      <p class="subhead">Click the photo to move through five moments.</p>
+    </header>
+
+    <section class="controls" aria-label="Story controls">
+      <label class="name-label" for="nameInput">Your name (optional)</label>
+      <div class="name-row">
+        <input id="nameInput" type="text" placeholder="Type your name..." autocomplete="given-name" />
+        <button id="saveNameBtn" type="button">Save</button>
+        <button id="resetBtn" type="button" class="secondary">Reset</button>
+      </div>
+      <p class="hint">Progress saves on this device.</p>
+    </section>
+
+    <figure class="story-figure" aria-label="Interactive story image">
+      <img
+        id="storyImg"
+        src="assets/images/image-1.png"
+        alt="Black-and-white photo showing segregation-era separation in a public space."
+      />
+      <figcaption class="figure-meta">
+        <p class="tap">Click / tap the photo</p>
+        <p id="photo-credit" class="credit">Photo by Russel Lee</p>
+      </figcaption>
+    </figure>
+
+    <section class="story-text" aria-live="polite">
+      <p id="story-caption">Click the photo to begin…</p>
+    </section>
+
+    <nav class="story-progress" aria-label="Story progress">
+      <span class="dot active" aria-label="Step 1"></span>
+      <span class="dot" aria-label="Step 2"></span>
+      <span class="dot" aria-label="Step 3"></span>
+      <span class="dot" aria-label="Step 4"></span>
+      <span class="dot" aria-label="Step 5"></span>
+    </nav>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
