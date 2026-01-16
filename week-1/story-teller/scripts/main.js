@@ -17,27 +17,27 @@ const NAME_KEY = 'mlkStoryName';
 // Story content (5 steps)
 const steps = [
   {
-    caption: "Click the photo to begin…",
+    caption: "The divide wasn’t abstract. It was posted, enforced, and normalized in daily life.",
     alt: "Black-and-white photo showing segregation-era separation in a public space.",
     credit: "Photo by Russel Lee"
   },
   {
-    caption: "The divide wasn’t abstract. It was posted, enforced, and normalized in daily life.",
+    caption: "People organized anyway while walking together and choosing courage over silence.",
     alt: "Black-and-white photo representing segregation or separation in a public setting.",
     credit: "GPA Photo Archive / Flickr"
   },
   {
-    caption: "People organized anyway while walking together and choosing courage over silence.",
+    caption: "The message held steady: dignity, justice, and nonviolence spoken into a nation listening.",
     alt: "Black-and-white photo of a civil rights march with a crowd moving forward.",
     credit: "Michael Ochs Archives / Getty Images"
   },
   {
-    caption: "The message held steady: dignity, justice, and nonviolence spoken into a nation listening.",
+    caption: "The legacy is a practice. Service. Solidarity. The work carried forward.",
     alt: "Black-and-white photo of Martin Luther King Jr. speaking to a crowd.",
     credit: "Gorodenkoff - stock.adobe.com"
   },
   {
-    caption: "The legacy is a practice. Service. Solidarity. The work carried forward. (Click to restart.)",
+    caption: "The moment has passed. The impact has not.",
     alt: "Black-and-white photo symbolizing community service or reflection and legacy.",
     credit: "Source: BlackPast"
   }
