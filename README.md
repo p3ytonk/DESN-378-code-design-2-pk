@@ -74,22 +74,22 @@ I really still need to practice using the console in dev tools. Even though it i
 
 # Learning Log
 ​
-## Week 2
+## Week 1
 ​
 ### What I Learned
-<!-- What concepts clicked for you? What was new? -->
+This week I learned about design systems. A design system is a set of standards that helps teams manage and scale design work by using reusable components, patterns, and rules. It kind of serves as a source of truth for design and development. We use design systems because they help speed up design, reduces redundancy and inconsistency across screens, creates a unified language for designers, and helps onboard new team members through documented guidelines. 
 ​
 ​
 ### What Was Hard
-<!-- What frustrated you? What didn't make sense? -->
+Nothing this week felt particularly hard, it was just kind of going through the motions for me and working my way through it. The homework felt helpful and not too overwhelming. I really liked the tutorial with the 17 chapters that you had to work through and if you got stuck, it would show you what it wanted you to do. 
 ​
 ​
 ### How I Used AI
-<!-- Did you use Copilot, ChatGPT, etc.? How did it help or not help? -->
+I used ChatGPT to help me sort of dumb down a lot of the newer stuff we have been doing with JavaScript. I still feel untrained to read the JS code and like I don't understand exactly what it is that I am doing still. I was able to take some inspiration from one of our assignments and plug in a piece of code. I then asked AI to explain it to me as if I was 5 years old. This helped a bit, but I think I still need some extra time working with JavaScript to understand it more, i'm not sure that it has totally or even some what clicked for me. 
 ​
 ​
 ### What's Still Unclear
-<!-- What questions do you still have? What needs more practice? -->
+Something that is still unclear to me is my file setup and organization in GitHub. I felt really confident in that during Code + Design 1, but now with adding in Scripts, Assets, and other things I sometimes get confused and doubt whether or not I am fully organizing and setting up my files correctly. 
 ​
 ### Week 2: Remembering Choices
 *Coming soon...*
