@@ -72,6 +72,25 @@ I really still need to practice using the console in dev tools. Even though it i
 ## Changes This Week
 - Migrated to standardized structure
 
+# Learning Log
+​
+## Week 2
+​
+### What I Learned
+<!-- What concepts clicked for you? What was new? -->
+​
+​
+### What Was Hard
+<!-- What frustrated you? What didn't make sense? -->
+​
+​
+### How I Used AI
+<!-- Did you use Copilot, ChatGPT, etc.? How did it help or not help? -->
+​
+​
+### What's Still Unclear
+<!-- What questions do you still have? What needs more practice? -->
+​
 ### Week 2: Remembering Choices
 *Coming soon...*
 
