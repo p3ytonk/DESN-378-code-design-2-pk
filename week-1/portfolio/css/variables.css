@@ -1,7 +1,8 @@
 /* Design Tokens — Peyton Knox Portfolio */
 
 /* ---------------------------
-   Color Tokens (Light default)
+   Collection: portfolio-colors
+   Light Mode (default)
 --------------------------- */
 :root {
   --primary-20: #510d18;
@@ -13,16 +14,20 @@
 }
 
 /* ---------------------------
-   Color Tokens (Dark overrides)
+   Dark Mode overrides
+   (same names, different values)
 --------------------------- */
 [data-theme="dark"] {
+  --primary-20: #510d18;
+  --primary-30: #93b385;
+  --secondary-40: #adc4d2;
+  --secondary-50: #e4cc6d;
   --neutral-90: #f5f5f5;
   --neutral-10: #000000;
-  /* keep the rest the same unless you want them to change */
 }
 
 /* ---------------------------
-   Spacing Tokens
+   Collection: spacing
 --------------------------- */
 :root {
   --xs: 8px;
@@ -35,45 +40,82 @@
 }
 
 /* ---------------------------
-   Typography Tokens
+   Collection: nav bar
+   (string tokens — optional use)
 --------------------------- */
-
-/* font family */
 :root {
-  --heading1-family: "Dawning of a New Day", cursive;
-  --heading2-family: "Dawning of a New Day", cursive;
-  --heading3-family: "Dawning of a New Day", cursive;
-  --projects-family: "Cormorant Garamond", serif;
-  --form-family: "Cormorant Garamond", serif;
-  --body-family: "Cormorant Garamond", serif;
-  --navigation-family: "Cormorant Garamond", serif;
+  --nav1: "ABOUT ME";
+  --nav2: "PROJECTS";
+  --nav3: "CONTACT";
 }
 
-/* text size */
+/* ---------------------------
+   Collection: primitives
+--------------------------- */
 :root {
-  --heading1-size: 260px;
-  --heading2-size: 180px;
-  --heading3-size: 85px;
-  --body-size: 32px;
-  --projects-size: 40px;
-  --navigation-size: 32px;
-  --form-size: 34px;
+  --red-30: #510d18;
+  --red-20: #791323;
+  --red-10: #9b162b;
+
+  --green-30: #93b385;
+  --green-20: #b5dba5;
+  --green-10: #e2ffd6;
+
+  --blue-30: #adc4d2;
+  --blue-20: #cce0ec;
+  --blue-10: #ebf7ff;
+
+  --yellow-30: #e4cc6d;
+  --yellow-20: #e8daa3;
+  --yellow-10: #e8e0c2;
+
+  --white-30: #f5f5f5;
+
+  --black-30: #000000;
+  --black-20: #202020;
+  --black-10: #444444;
 }
 
-/* text weight + style */
+/* ---------------------------
+   Collection: text size
+   (px added so usable in font-size)
+--------------------------- */
 :root {
-  --heading1-weight: 400;
-  --heading2-weight: 400;
-  --heading3-weight: 400;
-
-  --projects-weight: 500;
-
-  --form-weight: 600;
-  --form-style: italic;
-
-  --navigation-weight: 700;
-
-  --body-weight: 700;
-  --body-style: normal;
+  --heading1: 260px;
+  --heading2: 180px;
+  --heading3: 85px;
+  --body: 32px;
+  --projects: 40px;
+  --navigation: 32px;
+  --form: 34px;
 }
 
+/* ---------------------------
+   Collection: text weight
+   (string tokens kept as-is)
+   NOTE: these are not valid CSS numeric weights,
+   but kept to match your variable names/export.
+--------------------------- */
+:root {
+  --heading1-weight: "Regular";
+  --heading2-weight: "Regular";
+  --heading3-weight: "Regular";
+  --projects-weight: "Medium";
+  --form-weight: "SemiBold Italic";
+  --navigation-weight: "Bold";
+  --body-weight: "Bold";
+}
+
+/* ---------------------------
+   Collection: font family
+   (quoted for multi-word names)
+--------------------------- */
+:root {
+  --heading1-family: "Dawning of a New Day";
+  --heading2-family: "Dawning of a New Day";
+  --heading3-family: "Dawning of a New Day";
+  --projects-family: "Cormorant Garamond";
+  --form-family: "Cormorant Garamond";
+  --body-family: "Cormorant Garamond";
+  --navigation-family: "Cormorant Garamond";
+}
