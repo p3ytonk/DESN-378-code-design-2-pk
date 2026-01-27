@@ -1,11 +1,7 @@
 /* My Style Sheet */
 @import "./variables.css";
 
-/* ------------------------------------
-   Helpful alias tokens (optional)
-   Keeps your CSS readable while still
-   using Figma tokens underneath.
-------------------------------------- */
+
 :root {
   --color-bg: var(--neutral-10);
   --color-text: var(--neutral-90);
@@ -18,7 +14,7 @@
   --shadow-soft: 0 6px 20px rgba(0, 0, 0, 0.12);
 }
 
-/* Dark theme override (uses assignment pattern) */
+
 [data-theme="dark"] {
   --shadow-soft: 0 6px 20px rgba(0, 0, 0, 0.28);
 }
@@ -54,7 +50,6 @@ a:link {
 }
 
 a:visited {
-  /* Slightly darker red than primary-20 (kept as-is) */
   color: #3b0a12;
   text-decoration: none;
 }
@@ -336,7 +331,7 @@ textarea {
   font-family: "Cormorant Garamond", serif;
   font-weight: 600;
   font-style: italic;
-  background-color: #fffaf0; /* you can token-ize later if you want */
+  background-color: #fffaf0;
 }
 
 .btn-submit {
