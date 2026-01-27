@@ -1,1 +1,79 @@
+/* Design Tokens — Peyton Knox Portfolio */
+
+/* ---------------------------
+   Color Tokens (Light default)
+--------------------------- */
+:root {
+  --primary-20: #510d18;
+  --primary-30: #93b385;
+  --secondary-40: #adc4d2;
+  --secondary-50: #e4cc6d;
+  --neutral-90: #000000;
+  --neutral-10: #f5f5f5;
+}
+
+/* ---------------------------
+   Color Tokens (Dark overrides)
+--------------------------- */
+[data-theme="dark"] {
+  --neutral-90: #f5f5f5;
+  --neutral-10: #000000;
+  /* keep the rest the same unless you want them to change */
+}
+
+/* ---------------------------
+   Spacing Tokens
+--------------------------- */
+:root {
+  --xs: 8px;
+  --s: 16px;
+  --m: 24px;
+  --l: 32px;
+  --xl: 40px;
+  --xxl: 56px;
+  --xxxl: 72px;
+}
+
+/* ---------------------------
+   Typography Tokens
+--------------------------- */
+
+/* font family */
+:root {
+  --heading1-family: "Dawning of a New Day", cursive;
+  --heading2-family: "Dawning of a New Day", cursive;
+  --heading3-family: "Dawning of a New Day", cursive;
+  --projects-family: "Cormorant Garamond", serif;
+  --form-family: "Cormorant Garamond", serif;
+  --body-family: "Cormorant Garamond", serif;
+  --navigation-family: "Cormorant Garamond", serif;
+}
+
+/* text size */
+:root {
+  --heading1-size: 260px;
+  --heading2-size: 180px;
+  --heading3-size: 85px;
+  --body-size: 32px;
+  --projects-size: 40px;
+  --navigation-size: 32px;
+  --form-size: 34px;
+}
+
+/* text weight + style */
+:root {
+  --heading1-weight: 400;
+  --heading2-weight: 400;
+  --heading3-weight: 400;
+
+  --projects-weight: 500;
+
+  --form-weight: 600;
+  --form-style: italic;
+
+  --navigation-weight: 700;
+
+  --body-weight: 700;
+  --body-style: normal;
+}
 
