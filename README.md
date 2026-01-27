@@ -91,8 +91,24 @@ I used ChatGPT to help me sort of dumb down a lot of the newer stuff we have bee
 ### What's Still Unclear
 Something that is still unclear to me is my file setup and organization in GitHub. I felt really confident in that during Code + Design 1, but now with adding in Scripts, Assets, and other things I sometimes get confused and doubt whether or not I am fully organizing and setting up my files correctly. 
 ​
-### Week 2: Remembering Choices
-*Coming soon...*
+# Learning Log
+​
+## Week 2
+​
+### What I Learned
+This week I learned about variables and design tokens. Design tokens are like resuable units of a designers visual language and have named values that hold design attributes. These can really help keep designs consistent and easy to code. I also learned how to set up variables within Figma, which I think will be super helpful not only in this class but for future projects. 
+​
+​
+### What Was Hard
+What was difficult for me was figuring out the spacing of my portfolio design when trying to apply the spacing variables I created in Figma. When I first designed my portfolio site, I only thought about spacing visually, not as something numeric or that had a specific value. With that, my spacing was all out of sorts compared to the common values like 8px, 16px, 32px and so on. I didn't want to completely ruin the layout of my portfolio site so I added in spacing that was close or similar to the variables I created and others I just left as is.
+​
+​
+### How I Used AI
+This week, I actually didn't use AI to assist me with any pojects or assignments. Although, our visual notes were not published but when it came time to do them I was in a bit of a time crunch. I added the two links of the readings into ChatGPT and asked it to summarize the absolute most important information from the two readings and organize them into notes for me. From there, I was able to jot down the information and still retain what was important to know for the class. It was pretty useful if you're ever in a time crunch!
+​
+​
+### What's Still Unclear
+I'm curious as to how all of these variables and tokens will be applied to our code and sort of see first hand why these are so valuable to have when coding. I am excited to see how useful and helpful they are to have in code and design. 
 
 ---
 
