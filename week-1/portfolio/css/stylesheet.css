@@ -2,7 +2,7 @@
 @import "./variables.css";
 
 
-:root {
+[data-theme="light"] {
   --color-bg: var(--neutral-10);
   --color-text: var(--neutral-90);
 
