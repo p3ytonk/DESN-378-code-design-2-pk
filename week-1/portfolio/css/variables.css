@@ -1,10 +1,6 @@
 /* Design Tokens — Peyton Knox Portfolio */
 
-/* ---------------------------
-   Collection: portfolio-colors
-   Light Mode
---------------------------- */
-:root {
+[data-theme="light"] {
   --primary-20: #510d18;
   --primary-30: #93b385;
   --secondary-40: #adc4d2;
@@ -22,9 +18,6 @@
   --neutral-10: #000000;
 }
 
-/* ---------------------------
-   Collection: spacing
---------------------------- */
 :root {
   --xs: 8px;
   --s: 16px;
@@ -35,10 +28,6 @@
   --xxxl: 72px;
 }
 
-/* ---------------------------
-   Collection: nav bar
-   (string tokens — optional use)
---------------------------- */
 :root {
   --nav1: "ABOUT ME";
   --nav2: "PROJECTS";
@@ -74,7 +63,6 @@
 
 /* ---------------------------
    Collection: text size
-   (px added so usable in font-size)
 --------------------------- */
 :root {
   --heading1: 260px;
@@ -88,9 +76,6 @@
 
 /* ---------------------------
    Collection: text weight
-   (string tokens kept as-is)
-   NOTE: these are not valid CSS numeric weights,
-   but kept to match your variable names/export.
 --------------------------- */
 :root {
   --heading1-weight: "Regular";
@@ -104,7 +89,6 @@
 
 /* ---------------------------
    Collection: font family
-   (quoted for multi-word names)
 --------------------------- */
 :root {
   --heading1-family: "Dawning of a New Day";
