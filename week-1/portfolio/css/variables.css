@@ -34,9 +34,6 @@
   --nav3: "CONTACT";
 }
 
-/* ---------------------------
-   Collection: primitives
---------------------------- */
 :root {
   --red-30: #510d18;
   --red-20: #791323;
@@ -61,9 +58,7 @@
   --black-10: #444444;
 }
 
-/* ---------------------------
-   Collection: text size
---------------------------- */
+
 :root {
   --heading1: 260px;
   --heading2: 180px;
@@ -74,9 +69,6 @@
   --form: 34px;
 }
 
-/* ---------------------------
-   Collection: text weight
---------------------------- */
 :root {
   --heading1-weight: "Regular";
   --heading2-weight: "Regular";
@@ -87,9 +79,6 @@
   --body-weight: "Bold";
 }
 
-/* ---------------------------
-   Collection: font family
---------------------------- */
 :root {
   --heading1-family: "Dawning of a New Day";
   --heading2-family: "Dawning of a New Day";
