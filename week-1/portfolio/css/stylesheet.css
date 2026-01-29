@@ -492,6 +492,13 @@ textarea {
   font-weight: 700;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+    scroll-behavior: auto !important;
+  }
+
 @media (max-width: 768px) {
   .nav-list {
     font-size: 0.85rem;
