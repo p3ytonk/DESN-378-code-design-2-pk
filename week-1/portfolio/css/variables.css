@@ -1,7 +1,6 @@
 /* Design Tokens — Peyton Knox Portfolio */
 
 :root {
-  /* Typography */
   --font-serif: "Cormorant Garamond", serif;
   --font-script: "Dawning of a New Day", cursive;
 
@@ -112,7 +111,6 @@
   --color-text: var(--white-30);
   --color-text-muted: rgba(245, 245, 245, 0.78);
 
-  /* Accent tuned for dark background */
   --color-accent: var(--yellow-30);
   --color-accent-contrast: var(--black-30);
 
