@@ -1,26 +1,60 @@
-const toggle = document.querySelector(".theme-toggle");
+const themeButtons = document.querySelectorAll(".theme-btn");
+const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
 
-function applyTheme(theme) {
-  document.documentElement.dataset.theme = theme;
-
-  document.body.classList.toggle("dark", theme === "dark");
-  document.body.classList.toggle("light", theme === "light");
+function getSystemTheme() {
+  return mediaQuery.matches ? "dark" : "light";
 }
 
-const savedTheme = localStorage.getItem("theme");
-
-if (savedTheme) {
-  applyTheme(savedTheme);
-} else {
-  const systemPrefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-  applyTheme(systemPrefersDark ? "dark" : "light");
+function setPressedState(choice) {
+  themeButtons.forEach((btn) => {
+    const isActive = btn.dataset.themeChoice === choice;
+    btn.setAttribute("aria-pressed", String(isActive));
+  });
 }
 
-toggle.addEventListener("click", () => {
-  const currentTheme = document.documentElement.dataset.theme || "light";
+function applyThemeChoice(choice) {
+  // Save preference on click (or apply from load)
+  document.documentElement.dataset.themePreference = choice;
 
-  const newTheme = currentTheme === "dark" ? "light" : "dark";
+  if (choice === "light" || choice === "dark") {
+    document.documentElement.dataset.theme = choice;
+    localStorage.setItem("theme", choice);
+    setPressedState(choice);
+    return;
+  }
 
-  applyTheme(newTheme);
-  localStorage.setItem("theme", newTheme);
+  // System mode
+  const systemTheme = getSystemTheme();
+  document.documentElement.dataset.theme = systemTheme;
+  localStorage.setItem("theme", "system");
+  setPressedState("system");
+}
+
+function initTheme() {
+  const saved = localStorage.getItem("theme"); // "light" | "dark" | "system" | null
+
+  if (saved === "light" || saved === "dark") {
+    applyThemeChoice(saved);
+    return;
+  }
+
+  // Default to system if none saved or saved is "system"
+  applyThemeChoice("system");
+}
+
+themeButtons.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    applyThemeChoice(btn.dataset.themeChoice);
+  });
 });
+
+// Live OS changes only affect the page when user is in System mode
+mediaQuery.addEventListener("change", () => {
+  const pref = localStorage.getItem("theme") || "system";
+  if (pref === "system") {
+    document.documentElement.dataset.theme = getSystemTheme();
+    setPressedState("system");
+  }
+});
+
+initTheme();
