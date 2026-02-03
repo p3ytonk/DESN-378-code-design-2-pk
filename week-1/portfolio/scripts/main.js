@@ -13,7 +13,6 @@ function setPressedState(choice) {
 }
 
 function applyThemeChoice(choice) {
-  // Save preference on click (or apply from load)
   document.documentElement.dataset.themePreference = choice;
 
   if (choice === "light" || choice === "dark") {
@@ -38,7 +37,6 @@ function initTheme() {
     return;
   }
 
-  // Default to system if none saved or saved is "system"
   applyThemeChoice("system");
 }
 
@@ -48,7 +46,6 @@ themeButtons.forEach((btn) => {
   });
 });
 
-// Live OS changes only affect the page when user is in System mode
 mediaQuery.addEventListener("change", () => {
   const pref = localStorage.getItem("theme") || "system";
   if (pref === "system") {
