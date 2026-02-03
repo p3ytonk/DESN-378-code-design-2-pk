@@ -111,6 +111,44 @@ This week, I actually didn't use AI to assist me with any pojects or assignments
 I'm curious as to how all of these variables and tokens will be applied to our code and sort of see first hand why these are so valuable to have when coding. I am excited to see how useful and helpful they are to have in code and design. 
 
 ---
+# Learning Log
+​
+## Week 3
+​
+### What I Learned
+This week I learned about what design tokens are used for and why they are important. I also learned about system preferences and how these preferences can be stored in code so that the system remembers what the users preference was (light or dark). It can also base the theme off of what the user's device preferences are, like if your phone is set to dark mode, the website will follow that theme to match.​
+​
+### What Was Hard
+Something I found to be quite difficult was understaning sort of what it was that the variables did. I was confused why the values were in my variables.css but also my stylesheet.css... It didn't make sense to me. Travis explained it to me though and now I understand that it is there so that if changes need to be made in the future, I can just edit one single value in my variables and it will migrate throughout my code. When trying to add a theme-toggle button to my portfolio webside, I did something that really messed up my entire page. On light theme, it completely got rid of all color and everything was white. My favicon was also broken, so I have to fix that as well. ​
+​
+### How I Used AI
+I used ChatGPT when my code was broken in the console and when my portfolio got completely turned white. I asked if it could help me trouble shoot the issue and it had me insert my code. From there it pointed out to me what was broken and causing the issue as well as suggesting what I should replace it with to fix the error. ​
+​
+### What's Still Unclear
+Something I still don't quite understand is how localStorage works to keep track and remember what preference each user has on their device but also just on that specific website. 
+​
+​
+### Work Completed (Week 3)
+
+**Design Tokens**
+- [x] variables.css exists
+- [x] Color tokens defined
+- [x] Typography tokens defined
+- [x] Spacing tokens defined
+- [x] Tokens used in CSS (no hardcoded values)
+
+**Theme System**
+- [x] Uses data-theme on <html>
+- [x] Toggle feedback is immediate
+
+**Persistence & Preference**
+- [x] Theme saved to localStorage
+- [x] Theme persists on refresh
+- [x] System preference used on first visit
+
+**Deployment**
+- [x] Deployed to GitHub Pages
+- [x] Repository is public
 
 ## Quick Links
 
