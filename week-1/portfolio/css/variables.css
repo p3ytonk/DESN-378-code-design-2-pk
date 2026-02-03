@@ -1,25 +1,40 @@
 /* Design Tokens — Peyton Knox Portfolio */
 
 :root {
-  --primary-20: #510d18;
-  --primary-30: #93b385;
-  --secondary-40: #adc4d2;
-  --secondary-50: #e4cc6d;
-  --neutral-90: #000000;
-  --neutral-10: #f5f5f5;
+  /* Typography */
+  --font-serif: "Cormorant Garamond", serif;
+  --font-script: "Dawning of a New Day", cursive;
 
-  --xs: 8px;
-  --s: 16px;
-  --m: 24px;
-  --l: 32px;
-  --xl: 40px;
-  --xxl: 56px;
-  --xxxl: 72px;
+  --text-xs: 0.75rem;   /* 12px */
+  --text-sm: 0.875rem;  /* 14px */
+  --text-md: 1rem;      /* 16px */
+  --text-lg: 1.125rem;  /* 18px */
+  --text-xl: 1.5rem;    /* 24px */
+  --text-2xl: 2.5rem;   /* 40px */
 
-  --nav1: "ABOUT ME";
-  --nav2: "PROJECTS";
-  --nav3: "CONTACT";
+  --lh-tight: 1.1;
+  --lh-normal: 1.6;
+  --lh-loose: 1.8;
 
+  /* Spacing */
+  --space-xs: 0.5rem;   /* 8px */
+  --space-sm: 1rem;     /* 16px */
+  --space-md: 1.5rem;   /* 24px */
+  --space-lg: 2rem;     /* 32px */
+  --space-xl: 2.5rem;   /* 40px */
+  --space-2xl: 3.5rem;  /* 56px */
+
+  /* Layout */
+  --max-width: 900px;
+  --radius-pill: 999px;
+  --radius-md: 12px;
+
+  /* Transitions */
+  --dur-fast: 160ms;
+  --dur-med: 220ms;
+  --ease-standard: ease;
+
+  /* Raw palette */
   --red-30: #510d18;
   --red-20: #791323;
   --red-10: #9b162b;
@@ -42,37 +57,75 @@
   --black-20: #202020;
   --black-10: #444444;
 
-  --heading1: 260px;
-  --heading2: 180px;
-  --heading3: 85px;
-  --body: 32px;
-  --projects: 40px;
-  --navigation: 32px;
-  --form: 34px;
+  /* Semantic color tokens (defaults) */
+  --color-surface: var(--white-30);
+  --color-surface-alt: var(--blue-30);
+  --color-text: var(--black-30);
+  --color-text-muted: var(--black-10);
 
-  --heading1-weight: "Regular";
-  --heading2-weight: "Regular";
-  --heading3-weight: "Regular";
-  --projects-weight: "Medium";
-  --form-weight: "SemiBold Italic";
-  --navigation-weight: "Bold";
-  --body-weight: "Bold";
+  --color-accent: var(--red-30);
+  --color-accent-contrast: var(--white-30);
 
-  --heading1-family: "Dawning of a New Day";
-  --heading2-family: "Dawning of a New Day";
-  --heading3-family: "Dawning of a New Day";
-  --projects-family: "Cormorant Garamond";
-  --form-family: "Cormorant Garamond";
-  --body-family: "Cormorant Garamond";
-  --navigation-family: "Cormorant Garamond";
+  --color-border: var(--black-30);
+
+  --color-card-projects: var(--green-30);
+  --color-card-contact: var(--yellow-30);
+
+  --color-link: var(--red-30);
+  --color-link-visited: var(--red-20);
+
+  --color-input-surface: var(--yellow-10);
+
+  /* Shadow tokens */
+  --shadow-soft: 0 6px 20px rgba(0, 0, 0, 0.12);
+  --shadow-strong: 0 10px 26px rgba(0, 0, 0, 0.18);
 }
 
+/* Light mode values */
 [data-theme="light"] {
-  --neutral-90: #000000;
-  --neutral-10: #f5f5f5;
+  --color-surface: var(--white-30);
+  --color-surface-alt: var(--blue-30);
+  --color-text: var(--black-30);
+  --color-text-muted: var(--black-10);
+
+  --color-accent: var(--red-30);
+  --color-accent-contrast: var(--white-30);
+
+  --color-border: var(--black-30);
+
+  --color-card-projects: var(--green-30);
+  --color-card-contact: var(--yellow-30);
+
+  --color-link: var(--red-30);
+  --color-link-visited: var(--red-20);
+
+  --color-input-surface: var(--yellow-10);
+
+  --shadow-soft: 0 6px 20px rgba(0, 0, 0, 0.12);
+  --shadow-strong: 0 10px 26px rgba(0, 0, 0, 0.18);
 }
 
+/* Dark mode values */
 [data-theme="dark"] {
-  --neutral-90: #f5f5f5;
-  --neutral-10: #000000;
+  --color-surface: var(--black-20);
+  --color-surface-alt: var(--black-10);
+  --color-text: var(--white-30);
+  --color-text-muted: rgba(245, 245, 245, 0.78);
+
+  /* Accent tuned for dark background */
+  --color-accent: var(--yellow-30);
+  --color-accent-contrast: var(--black-30);
+
+  --color-border: rgba(245, 245, 245, 0.7);
+
+  --color-card-projects: rgba(147, 179, 133, 0.45);
+  --color-card-contact: rgba(228, 204, 109, 0.45);
+
+  --color-link: var(--yellow-30);
+  --color-link-visited: var(--yellow-20);
+
+  --color-input-surface: rgba(245, 245, 245, 0.08);
+
+  --shadow-soft: 0 6px 20px rgba(0, 0, 0, 0.28);
+  --shadow-strong: 0 10px 26px rgba(0, 0, 0, 0.38);
 }
