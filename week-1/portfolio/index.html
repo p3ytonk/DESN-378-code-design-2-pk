@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Peyton Knox | Portfolio</title>
 
-  <!-- Early theme to avoid flash -->
   <script>
     (function () {
       const saved = localStorage.getItem("theme"); // "light" | "dark" | "system" | null
@@ -46,16 +45,37 @@
           <li><a href="#contact" class="nav-link">Contact</a></li>
 
           <li>
-            <div class="theme-switcher" role="group" aria-label="Theme mode">
-              <button type="button" class="theme-btn" data-theme-choice="light" aria-label="Switch to light theme" aria-pressed="false">
-                Light
+            <!-- Theme Dropdown -->
+            <div class="theme-dropdown" data-theme-dropdown>
+              <button
+                type="button"
+                class="theme-trigger"
+                data-theme-trigger
+                aria-haspopup="menu"
+                aria-expanded="false"
+                aria-controls="theme-menu"
+              >
+                <span class="theme-trigger-icon" data-theme-trigger-icon aria-hidden="true"></span>
+                <span class="theme-trigger-text">Theme</span>
+                <span class="theme-trigger-caret" aria-hidden="true">▾</span>
               </button>
-              <button type="button" class="theme-btn" data-theme-choice="dark" aria-label="Switch to dark theme" aria-pressed="false">
-                Dark
-              </button>
-              <button type="button" class="theme-btn" data-theme-choice="system" aria-label="Use system theme preference" aria-pressed="false">
-                System
-              </button>
+
+              <div class="theme-menu" id="theme-menu" role="menu" aria-label="Theme" data-theme-menu>
+                <button type="button" role="menuitemradio" aria-checked="false" data-theme="system">
+                  <span class="theme-option-icon" data-icon="system" aria-hidden="true"></span>
+                  <span class="theme-option-label">System</span>
+                </button>
+
+                <button type="button" role="menuitemradio" aria-checked="false" data-theme="light">
+                  <span class="theme-option-icon" data-icon="light" aria-hidden="true"></span>
+                  <span class="theme-option-label">Light</span>
+                </button>
+
+                <button type="button" role="menuitemradio" aria-checked="false" data-theme="dark">
+                  <span class="theme-option-icon" data-icon="dark" aria-hidden="true"></span>
+                  <span class="theme-option-label">Dark</span>
+                </button>
+              </div>
             </div>
           </li>
         </ul>
