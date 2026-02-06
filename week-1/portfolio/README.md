@@ -64,7 +64,7 @@ Theme controls are keyboard accessible and include ARIA labels.
 
 ---
 
-# Drop Down Menu
+## Drop Down Menu
 viewBox="0 0 24 24" sets the svg's drawing space. It means that the icon is designed on a 24 by 24 grid, so it can scale bigger or smaller without getting distorted.
 currentColor is flexible because the icon just copies whatever color the text is in CSS, so when my site switches themes or colors, the icon updates automatically. 
 If I used path, the d part is the directions for drawing the shape. It is a list of points and commands that tell the svg where to go to make the lines and curves. 
