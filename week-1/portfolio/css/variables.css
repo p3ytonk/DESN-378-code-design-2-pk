@@ -1,5 +1,3 @@
-/* Design Tokens — Peyton Knox Portfolio */
-
 :root {
   --font-serif: "Cormorant Garamond", serif;
   --font-script: "Dawning of a New Day", cursive;
@@ -23,17 +21,14 @@
   --space-xl: 2.5rem;   /* 40px */
   --space-2xl: 3.5rem;  /* 56px */
 
-  /* Layout */
   --max-width: 900px;
   --radius-pill: 999px;
   --radius-md: 12px;
 
-  /* Transitions */
   --dur-fast: 160ms;
   --dur-med: 220ms;
   --ease-standard: ease;
 
-  /* Raw palette */
   --red-30: #510d18;
   --red-20: #791323;
   --red-10: #9b162b;
@@ -56,7 +51,6 @@
   --black-20: #202020;
   --black-10: #444444;
 
-  /* Semantic color tokens (defaults) */
   --color-surface: var(--white-30);
   --color-surface-alt: var(--blue-30);
   --color-text: var(--black-30);
