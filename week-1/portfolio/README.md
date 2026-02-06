@@ -64,12 +64,12 @@ Theme controls are keyboard accessible and include ARIA labels.
 
 ---
 
-## Drop Down Menu
+# Drop Down Menu
 viewBox="0 0 24 24" sets the svg's drawing space. It means that the icon is designed on a 24 by 24 grid, so it can scale bigger or smaller without getting distorted.
 currentColor is flexible because the icon just copies whatever color the text is in CSS, so when my site switches themes or colors, the icon updates automatically. 
 If I used path, the d part is the directions for drawing the shape. It is a list of points and commands that tell the svg where to go to make the lines and curves. 
 
-# Reflection Questions:
+### Reflection Questions:
 My system icon is a beetle because it feels like a neutral default mode instead of clearly day or night. I also feel like it communicates balance and that it can switch either way depending on what the users system preferences are. 
 Light and Dark force a theme. When I click Light, I store "light" and set data-theme to light. When I click Dark, I store "dark" and set data-theme to dark. System is different because I store "system" but I do not force one theme forever.
 What surprised me was that "system" is not really a theme. it is a rule that decided the theme for you. I also learned that svg's using currentColor are way easier because they automatically match whatever color the button text is, so they work in both light and dark without extra edits. 
