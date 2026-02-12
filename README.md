@@ -157,12 +157,36 @@ Something I still don't quite understand is how localStorage works to keep track
 
 ---
 
+# Learning Log
+​
+## Week 4 The Shape // SVG Structure, Figma's Engine, and Interactive Graphics
+​
+### What I Learned
+This week I learned more about SVGs and how they are actually used in websites, not just like icons you download. I started understanding stuff like paths and why SVGs scale better than images. I also learned how dropdown menus work using HTML, CSS, and JavaScript together. It helped me see how interactions actually happen on a page when someone clicks something. I feel like I’m starting to understand how small code pieces connect to bigger design systems, which is cool but also kind of a lot.
+​
+​
+### What Was Hard
+SVG paths were honestly confusing because it just looks like random letters and numbers at first. It was hard to picture what the path was actually drawing. Dropdowns were also hard when they wouldn’t open or close right, and it was annoying trying to figure out if I broke the HTML, CSS, or JavaScript. Sometimes it just took a long time of trial and error.
+​
+​
+### How I Used AI
+I used ChatGPT to help me actually build parts of my dropdown, not just explain it. I asked it how to structure the HTML, how to connect the CSS, and how to write the JavaScript to make it open and close. I still went through and tested everything and made changes to fit my assignment, but it definitely helped me get unstuck and understand how the pieces work together. I also used it to help debug when my dropdown wasn’t working the way I expected.
+​
+​
+### What's Still Unclear
+I still don’t fully understand how to read SVG path code without using generators or tools. I also want to understand JavaScript events better and how state works in bigger websites, not just small practice projects.
+
+### Work Completed (Week 4)
+
+- [x] Theme Dropdown with Custom SVG Icons
+
 ## Tools
 
 - **Editor:** VS Code + GitHub Copilot
 - **Design:** Figma
 - **Hosting:** GitHub Pages
-- **Animation:** GSAP (coming Week 5)
+- **Animation:** GSAP
+- **AI:** ChatGPT
 
 ---
 
