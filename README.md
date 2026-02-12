@@ -16,7 +16,8 @@ This is my workspace for **DESN 378 Code + Design 2** also known as **Web Design
 
 | # | Project | Focus | Status |
 |---|---------|-------|--------|
-| 1 | The System | Design tokens + theme switching | [x] |
+| 1 | The System | Design tokens + theme switching | complete |
+| 2 | SVG Dropdown | Theme Switch Dropdown Menu | complete |
 
 ---
 
