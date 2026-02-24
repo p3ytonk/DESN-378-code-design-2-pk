@@ -194,19 +194,19 @@ I still don’t fully understand how to read SVG path code without using generat
 ## Week 5
 ​
 ### What I Learned
-<!-- SVG's, dropdown, svg paths -->
+This week I learned what scrollytelling is and how it uses scrolling to reveal information and animations as the user moves down the page. Instead of everything showing at once, content appears step by step, which makes it feel more interactive and engaging. I learned how scrolling can control when elements fade in, move, or change.
 ​
 ​
 ### What Was Hard
-<!-- What broke, confused you, or took time to understand -->
+Honestly, this whole concept was pretty hard for me to understand. I am still really confused about how scrolling actually controls the animations and how everything connects. It was especially confusing trying to understand why animations trigger at certain times and how to control that. It also took time to understand how everything is structured behind the scenes.
 ​
 ​
 ### How I Used AI
-<!-- Copilot, ChatGPT, etc. What you asked and why -->
+I used ChatGPT to help explain scrollytelling in simpler terms and to help me understand how scroll can control animations and content. I also used AI to help me come up with ideas and examples so I could better understand how scrollytelling works in real projects.
 ​
 ​
 ### What's Still Unclear
-<!-- Questions that remain -->
+I am still really confused about how scrollytelling works overall. I understand the idea, but I do not fully understand how to control it or build it on my own yet. I think I need more practice and more examples to fully understand it.
 ​
 ​
 ### Work Completed (Week 5)
