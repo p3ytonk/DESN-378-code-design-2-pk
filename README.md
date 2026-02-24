@@ -189,6 +189,56 @@ I still don’t fully understand how to read SVG path code without using generat
 - **Animation:** GSAP
 - **AI:** ChatGPT
 
+# Learning Log
+​
+## Week 5
+​
+### What I Learned
+<!-- SVG's, dropdown, svg paths -->
+​
+​
+### What Was Hard
+<!-- What broke, confused you, or took time to understand -->
+​
+​
+### How I Used AI
+<!-- Copilot, ChatGPT, etc. What you asked and why -->
+​
+​
+### What's Still Unclear
+<!-- Questions that remain -->
+​
+​
+### Work Completed (Week 5)
+- [x] Scrollytelling Research
+- [x] Metaphor Alignment
+- [x] Build 5// The System
+
+# Learning Log
+​
+## Week 6
+​
+### What I Learned
+This week I learned how parallax scrolling creates the illusion of depth by moving different layers at different speeds as you scroll. Background elements move slower and foreground elements move faster, which makes the page feel more immersive. I also learned that this works by animating the transform property, specifically moving elements on the y axis. I also learned how to use GSAP ScrollTrigger to connect animations to scroll instead of time.
+​
+​
+### What Was Hard
+One of the hardest parts was understanding the difference between time-based animation and scroll-based animation. At first, I was confused why the animation would not play unless I scrolled. It took some time to realize that ScrollTrigger replaces time with scroll position as the thing controlling the animation.
+​
+​
+### How I Used AI
+I used ChatGPT to help summarize the parallax and ScrollTrigger videos into notes that were easier for me to understand.
+​
+​
+### What's Still Unclear
+I still want more practice understanding how to choose the best start and end values for ScrollTrigger. Sometimes it feels like guessing. I would also like more practice creating more complex scroll animations that involve multiple elements moving at different speeds and interacting with each other.
+​
+​
+### Work Completed (Week 6)
+- [x] The Blueprint
+- [x] Motion Map
+- [x] SVG Tutorial
+
 ---
 
 *This README will evolve. At quarter's end, it transforms into a portfolio landing page.*
